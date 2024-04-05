@@ -974,7 +974,7 @@ dependencies = [
 
 [[package]]
 name = "everscale-rpc-node"
-version = "0.2.0"
+version = "0.2.1"
 dependencies = [
  "anyhow",
  "argh",
@@ -1248,7 +1248,7 @@ checksum = "d2fabcfbdc87f4758337ca535fb41a6d701b65693ce38287d856d1674551ec9b"
 [[package]]
 name = "global-config"
 version = "0.1.0"
-source = "git+https://github.com/broxus/ton-indexer.git#9bbb5c0509d1a7e92464d65b75b64f80dd116165"
+source = "git+https://github.com/broxus/ton-indexer.git#d6578d5b1033be0402934f2c65373c4e7fd54896"
 dependencies = [
  "anyhow",
  "base64 0.13.1",
@@ -1421,7 +1421,7 @@ dependencies = [
  "httpdate",
  "itoa",
  "pin-project-lite",
- "socket2 0.4.10",
+ "socket2 0.5.5",
  "tokio",
  "tower-service",
  "tracing",
@@ -3016,12 +3016,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "stable_deref_trait"
-version = "1.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a8f112729512f8e442d81f95a8a7ddf2b7c6b8a1a6f509a95864142b30cab2d3"
-
-[[package]]
 name = "static_assertions"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3353,7 +3347,7 @@ dependencies = [
 [[package]]
 name = "ton-indexer"
 version = "0.3.2"
-source = "git+https://github.com/broxus/ton-indexer.git#9bbb5c0509d1a7e92464d65b75b64f80dd116165"
+source = "git+https://github.com/broxus/ton-indexer.git#d6578d5b1033be0402934f2c65373c4e7fd54896"
 dependencies = [
  "ahash",
  "anyhow",
@@ -3393,7 +3387,6 @@ dependencies = [
  "ton_block",
  "ton_types",
  "tracing",
- "triomphe",
  "weedb",
 ]
 
@@ -3422,7 +3415,7 @@ dependencies = [
 [[package]]
 name = "ton_block"
 version = "1.9.73"
-source = "git+https://github.com/broxus/ton-labs-block#44824b29903dfd556332e720fa932eabe1917f39"
+source = "git+https://github.com/broxus/ton-labs-block.git#44824b29903dfd556332e720fa932eabe1917f39"
 dependencies = [
  "anyhow",
  "base64 0.13.1",
@@ -3457,7 +3450,7 @@ dependencies = [
 [[package]]
 name = "ton_types"
 version = "1.10.2"
-source = "git+https://github.com/broxus/ton-labs-types#3324562d7ff1ebec66d996128573966c1b53862b"
+source = "git+https://github.com/broxus/ton-labs-types.git#3324562d7ff1ebec66d996128573966c1b53862b"
 dependencies = [
  "anyhow",
  "base64 0.13.1",
@@ -3618,16 +3611,6 @@ dependencies = [
  "tracing",
  "tracing-core",
  "tracing-log",
-]
-
-[[package]]
-name = "triomphe"
-version = "0.1.11"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "859eb650cfee7434994602c3a68b25d77ad9e68c8a6cd491616ef86661382eb3"
-dependencies = [
- "serde",
- "stable_deref_trait",
 ]
 
 [[package]]
